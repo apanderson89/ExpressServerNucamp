@@ -1,4 +1,5 @@
 const express = require('express');
+const Campsite = require('../models/partner');
 const partnersRouter = express.Router();
 
 partnersRouter.route('/')
